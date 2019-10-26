@@ -1,0 +1,19 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Attach to Balena",
+            "type": "python",
+            "request": "attach",
+            "pathMappings": [
+                {
+                    "localRoot": "${workspaceRoot}",
+                    "remoteRoot": "/usr/src/app"
+                }
+            ],
+            "port": 6899,
+            "host": "10.10.169.237",
+            "subProcess": true
+        }
+    ]
+}
